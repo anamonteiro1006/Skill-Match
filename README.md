@@ -1,386 +1,173 @@
 <div align="center">
 
+![Banner do SkillMatch](docs/prints/banner.png)
+
 # 💜 SkillMatch
 ### Transformando habilidades em oportunidades!
 
-**Plataforma de Capacitação e Oportunidades para Freelancers**
-
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-![Material Design](https://img.shields.io/badge/Material_3-6750A4?style=for-the-badge&logo=materialdesign&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
-**🎓 Universidade de Mogi das Cruzes — UMC**
-
----
+**Projeto acadêmico • Universidade de Mogi das Cruzes (UMC)**
 
 </div>
 
+---
+
 ## 📖 Sobre o projeto
 
-O **SkillMatch** é um aplicativo acadêmico desenvolvido com **Flutter e Dart**, criado para aproximar freelancers, especialmente profissionais iniciantes, de oportunidades de trabalho.
+O **SkillMatch** é um aplicativo acadêmico desenvolvido com **Flutter e Dart** para conectar **freelancers**, especialmente profissionais em início de carreira, a **clientes e oportunidades de trabalho**.
 
-A plataforma busca facilitar a conexão entre profissionais e clientes, oferecendo funcionalidades que auxiliam na divulgação de habilidades, na busca por oportunidades e no desenvolvimento profissional.
-
-O aplicativo possui dois tipos de conta:
-
-- 👩‍💻 **Freelancer:** pode explorar oportunidades, enviar propostas, acompanhar candidaturas e organizar seu perfil profissional.
-- 💼 **Cliente:** pode publicar oportunidades, visualizar propostas e gerenciar suas publicações.
-
-Além disso, o SkillMatch apresenta catálogo de cursos, portfólio profissional, notificações e navegação entre diferentes áreas da plataforma.
+A plataforma reúne divulgação de habilidades, perfis profissionais, oportunidades, propostas e conteúdos de capacitação em uma interface intuitiva. O aplicativo possui fluxos distintos para **Freelancer** e **Cliente**.
 
 ## 🎯 Objetivos
 
-- Facilitar o acesso de freelancers iniciantes ao mercado de trabalho.
-- Conectar profissionais e clientes em uma única plataforma.
-- Incentivar a capacitação e o desenvolvimento de habilidades.
-- Proporcionar maior visibilidade aos profissionais.
-- Simplificar a publicação de oportunidades e o envio de propostas.
-- Aplicar os conhecimentos adquiridos durante a disciplina de Desenvolvimento de Aplicativos em Flutter.
-
----
+- Facilitar o acesso às primeiras oportunidades profissionais.
+- Dar visibilidade às habilidades e aos serviços de freelancers.
+- Aproximar clientes de profissionais disponíveis.
+- Incentivar a capacitação e a construção de portfólio.
+- Tornar mais simples o acompanhamento de oportunidades e propostas.
 
 ## ✨ Funcionalidades
 
-### 👩‍💻 Área do Freelancer
-
-- Cadastro e acesso ao aplicativo.
-- Visualização e edição do perfil.
-- Busca de oportunidades disponíveis.
-- Visualização dos detalhes de cada oportunidade.
-- Envio e acompanhamento de propostas.
-- Consulta ao catálogo de cursos.
-- Gerenciamento do portfólio profissional.
-- Acesso às notificações.
-
-### 💼 Área do Cliente
-
-- Cadastro e acesso ao aplicativo.
-- Visualização do perfil.
-- Publicação de oportunidades.
-- Gerenciamento das oportunidades publicadas.
-- Visualização de propostas recebidas.
-- Exclusão de oportunidades.
-
-### 🧭 Navegação principal
-
-O aplicativo possui uma barra de navegação com quatro seções:
-
-| Seção | Funcionalidade |
+| 👩‍💻 Freelancer | 🧑‍💼 Cliente |
 |---|---|
-| 🏠 Início | Página inicial personalizada conforme o tipo de conta |
-| 🔎 Buscar | Pesquisa de oportunidades e profissionais |
-| 📚 Cursos | Catálogo de cursos e conteúdos de capacitação |
-| 👤 Perfil | Informações pessoais, habilidades e portfólio |
+| Cadastro e login local | Cadastro e login local |
+| Perfil profissional | Perfil de cliente |
+| Busca de oportunidades | Publicação de oportunidades |
+| Visualização de detalhes | Visualização das oportunidades publicadas |
+| Envio e acompanhamento de propostas | Consulta de propostas recebidas |
+| Acesso a cursos e portfólio | Exclusão de oportunidades |
 
----
+**Também inclui:** navegação entre **Início, Buscar, Cursos e Perfil**, além de telas de notificações e configurações.
+
+## 📱 Capturas de tela
+
+As imagens abaixo são capturas incluídas no próprio repositório, em `docs/prints/`.
+
+<div align="center">
+
+### 🔐 Acesso e cadastro
+
+| Login | Cadastro | Continuação do cadastro |
+|:---:|:---:|:---:|
+| <img src="docs/prints/login.png" width="240" alt="Tela de login"> | <img src="docs/prints/cadastro.png" width="240" alt="Tela de cadastro"> | <img src="docs/prints/cadastro2.png" width="240" alt="Continuação do cadastro"> |
+
+### 🏠 Páginas iniciais
+
+| Início — Freelancer | Início — Cliente |
+|:---:|:---:|
+| <img src="docs/prints/inicio_freelancer.png" width="330" alt="Página inicial do freelancer"> | <img src="docs/prints/inicio_cliente.png" width="330" alt="Página inicial do cliente"> |
+
+### 💼 Oportunidades e capacitação
+
+| Oportunidades | Cursos |
+|:---:|:---:|
+| <img src="docs/prints/oportunidades.png" width="330" alt="Tela de oportunidades"> | <img src="docs/prints/cursos.png" width="330" alt="Tela de cursos"> |
+
+</div>
 
 ## 🛠️ Tecnologias utilizadas
 
-| Tecnologia | Finalidade |
-|---|---|
-| **Flutter** | Desenvolvimento das interfaces e funcionalidades |
-| **Dart** | Linguagem de programação |
-| **Material Design 3** | Componentes e identidade visual |
-| **SharedPreferences** | Persistência local de informações |
-| **JSON** | Estruturação dos dados armazenados |
-| **Google Chrome** | Execução e testes da versão web |
-| **Poppins** | Tipografia utilizada no aplicativo |
-| **Git e GitHub** | Versionamento e compartilhamento do código |
-| **Visual Studio Code** | Ambiente de desenvolvimento |
+- **Flutter e Dart:** desenvolvimento da aplicação e da interface.
+- **Material Design 3:** componentes visuais.
+- **SQLite (`sqflite`):** armazenamento local de dados da aplicação.
+- **`sqflite_common_ffi_web`:** suporte ao SQLite na versão web.
+- **`shared_preferences`:** armazenamento local de informações de contas e sessões de demonstração.
+- **`crypto`:** geração de hashes de senha para as contas locais demonstrativas.
+- **Fonte Poppins:** tipografia da interface.
 
----
-
-## 📂 Estrutura do projeto
-
-O código foi organizado em diretórios para facilitar a identificação dos componentes e a manutenção do aplicativo.
+## 🗂️ Estrutura do projeto
 
 ```text
 skill_match/
-│
-├── lib/
-│   ├── main.dart
-│   ├── models/
-│   ├── data/
-│   ├── theme/
-│   ├── view/
-│   └── controller/
-│
 ├── assets/
-│   ├── img/
-│   └── fonts/
-│
-├── android/
-├── ios/
-├── web/
-│
-├── pubspec.yaml
-├── analysis_options.yaml
-└── README.md
+│   ├── fonts/              # Fontes Poppins
+│   └── img/                # Logotipo
+├── docs/
+│   └── prints/             # Banner e capturas de tela
+├── lib/
+│   ├── controller/         # Apoio à navegação
+│   ├── data/               # Dados de demonstração
+│   ├── models/             # Modelos de dados
+│   ├── services/           # Persistência e contas locais
+│   ├── theme/              # Tema e cores
+│   ├── view/               # Telas e componentes
+│   └── main.dart           # Entrada do aplicativo
+├── test/                   # Testes
+└── pubspec.yaml            # Dependências e configurações
 ```
 
-### 📁 Organização dos diretórios
+## 🚀 Como executar
 
-| Diretório | Responsabilidade |
-|---|---|
-| `lib/main.dart` | Fluxo de telas e lógica de interação da demonstração |
-| `lib/models/` | Modelos de oportunidades e propostas |
-| `lib/data/` | Dados iniciais utilizados na demonstração |
-| `lib/theme/` | Cores e configurações visuais compartilhadas |
-| `lib/view/` | Componentes e arquivos de interface |
-| `lib/controller/` | Arquivos de apoio ao controle das interações |
-| `assets/` | Logotipo, imagens e fontes |
+**Pré-requisitos:** Flutter SDK instalado e navegador Chrome disponível.
 
----
-
-## 🚀 Como executar o projeto
-
-### Pré-requisitos
-
-Antes de executar o aplicativo, é necessário ter instalado:
-
-- Flutter SDK.
-- Visual Studio Code ou outro editor compatível.
-- Google Chrome.
-- Git, caso deseje clonar o repositório.
-
-### 1. Verificar a instalação do Flutter
-
-Abra o terminal e execute:
-
-```bash
-flutter doctor
-```
-
-### 2. Clonar o repositório
+1. Clone o repositório:
 
 ```bash
 git clone https://github.com/anamonteiro1006/skillmatch.git
 ```
 
-### 3. Acessar a pasta do projeto
+2. Entre na pasta do projeto:
 
 ```bash
 cd skillmatch
 ```
 
-### 4. Instalar as dependências
+> Caso o projeto esteja dentro de uma subpasta chamada `skill_match`, entre nela antes de executar os comandos seguintes.
+
+3. Instale as dependências e inicie o aplicativo:
 
 ```bash
 flutter pub get
-```
-
-### 5. Executar o aplicativo
-
-```bash
 flutter run -d chrome
 ```
 
-O aplicativo será iniciado no navegador Google Chrome.
-
-### 6. Verificar a qualidade do código
+4. Para verificar a qualidade do código e executar os testes:
 
 ```bash
 flutter analyze
+flutter test
 ```
 
-Esse comando verifica possíveis problemas identificados pela análise estática do Dart e Flutter.
+## 🔄 Fluxos de utilização
 
----
+1. **Cadastro:** criar conta e escolher entre Freelancer e Cliente.
+2. **Cliente:** acessar o perfil, publicar uma oportunidade e consultar as propostas.
+3. **Freelancer:** entrar na conta, buscar oportunidades e enviar uma proposta.
+4. **Acompanhamento:** retornar à conta do cliente para visualizar a proposta recebida.
+5. **Gerenciamento:** excluir oportunidades e utilizar as demais áreas do aplicativo.
 
-## 💾 Persistência local de dados
+## 💾 Armazenamento local
 
-O SkillMatch utiliza o pacote **`shared_preferences`** para armazenar informações localmente no dispositivo ou navegador.
+O projeto utiliza **SQLite** para persistir dados da aplicação, como oportunidades e propostas, e **SharedPreferences** para informações locais de contas e sessões de demonstração. Assim, dados podem permanecer disponíveis após fechar e reabrir o aplicativo no mesmo ambiente.
 
-Os dados são organizados em formato JSON, permitindo que determinadas informações sejam recuperadas após o fechamento e a reabertura do aplicativo.
+> **Importante:** trata-se de um projeto acadêmico. O gerenciamento de contas é local e demonstrativo, não substitui um serviço de autenticação de produção. Os dados não são sincronizados automaticamente entre navegadores ou dispositivos.
 
-### Informações armazenadas
+## 🌍 Impacto social
 
-- Dados do perfil.
-- Oportunidades publicadas.
-- Propostas enviadas e recebidas.
+O SkillMatch se relaciona aos Objetivos de Desenvolvimento Sustentável (ODS):
 
-### Funcionamento
+- **ODS 8 — Trabalho Decente e Crescimento Econômico:** incentivo ao acesso ao trabalho e à geração de renda.
+- **ODS 10 — Redução das Desigualdades:** ampliação das oportunidades para profissionais iniciantes.
 
-1. O usuário realiza uma ação, como publicar uma oportunidade.
-2. O aplicativo atualiza os dados locais.
-3. As informações são armazenadas utilizando `shared_preferences`.
-4. Ao abrir novamente o aplicativo, os dados salvos são carregados.
+## 👥 Equipe
 
-### ⚠️ Limitações do armazenamento
+- **Ana Júlia Monteiro Lemes**
+- **Júlio Félix Quintero de Assis**
+- **Thamiris Bernal Molina**
 
-- Não utiliza banco de dados SQL.
-- Não sincroniza informações entre dispositivos.
-- Não é indicado para grandes volumes de dados.
-- Não substitui um sistema de autenticação.
-- As senhas não são persistidas.
-
-Para uma versão destinada a usuários reais, seria necessário integrar serviços de autenticação e armazenamento em servidor, como Firebase Authentication e Cloud Firestore.
-
----
-
-## 🧪 Testes e validações
-
-Foram definidos os seguintes fluxos para verificar o funcionamento das principais funcionalidades.
-
-### ✅ Cadastro e navegação
-
-- [x] Acessar a tela de boas-vindas.
-- [x] Realizar cadastro ou acessar o formulário de login.
-- [x] Selecionar o tipo de conta.
-- [x] Navegar entre Início, Buscar, Cursos e Perfil.
-
-### ✅ Fluxo do Freelancer
-
-- [x] Acessar a área de oportunidades.
-- [x] Visualizar os detalhes de uma oportunidade.
-- [x] Enviar uma proposta.
-- [x] Consultar as propostas enviadas.
-- [x] Acessar cursos e portfólio.
-
-### ✅ Fluxo do Cliente
-
-- [x] Publicar uma oportunidade.
-- [x] Consultar as oportunidades publicadas.
-- [x] Visualizar propostas recebidas.
-- [x] Excluir uma oportunidade.
-
-### ✅ Persistência local
-
-- [x] Publicar uma oportunidade e verificar seu armazenamento.
-- [x] Recarregar o aplicativo e verificar os dados.
-- [x] Excluir uma oportunidade.
-- [x] Enviar uma proposta e verificar sua permanência.
-
-### Análise estática
-
-Comando utilizado:
-
-```bash
-flutter analyze
-```
-
-Resultado obtido na verificação:
-
-```text
-No issues found!
-```
-
----
-
-## 🔄 Fluxo de utilização
-
-### 👩‍💻 Jornada do Freelancer
-
-**Boas-vindas → Cadastro/Login → Freelancer → Início → Buscar oportunidades → Detalhes → Enviar proposta → Minhas propostas**
-
-O freelancer também pode acessar cursos, editar seu perfil e organizar seu portfólio.
-
-### 💼 Jornada do Cliente
-
-**Boas-vindas → Cadastro/Login → Cliente → Início → Publicar oportunidade → Minhas oportunidades → Propostas recebidas**
-
-O cliente também pode visualizar e excluir oportunidades publicadas.
-
----
-
-## 📸 Capturas de tela
-
-As capturas reais do aplicativo podem ser adicionadas nesta seção para demonstrar visualmente suas funcionalidades.
-
-| Tela | Descrição |
-|---|---|
-| 💜 Boas-vindas | Apresentação inicial do SkillMatch |
-| 🔐 Login | Acesso ao aplicativo |
-| 📝 Cadastro | Criação de conta |
-| 👩‍💻 Início Freelancer | Página inicial do profissional |
-| 💼 Início Cliente | Página inicial do cliente |
-| 🔎 Oportunidades | Listagem de oportunidades |
-| 📚 Cursos | Catálogo de capacitação |
-| 👤 Perfil | Informações do usuário |
-
----
-
-## ⚠️ Limitações conhecidas
-
-O SkillMatch é um **protótipo acadêmico funcional**, desenvolvido para demonstrar os principais fluxos de interação entre freelancers e clientes.
-
-Algumas funcionalidades ainda possuem limitações:
-
-- O login não está integrado a um provedor externo de autenticação.
-- A recuperação e a alteração de senha possuem caráter demonstrativo.
-- Os dados são armazenados localmente.
-- Não existe sincronização entre dispositivos.
-- O aplicativo não deve ser utilizado com credenciais reais.
-
-Essas limitações poderão ser tratadas em futuras versões da plataforma.
-
----
-
-## 🔮 Melhorias futuras
-
-Entre as possíveis evoluções do SkillMatch estão:
-
-- Implementação de autenticação segura.
-- Integração com banco de dados em nuvem.
-- Sincronização de informações entre dispositivos.
-- Ampliação das funcionalidades de cursos e capacitação.
-- Melhorias na comunicação entre clientes e freelancers.
-- Publicação de uma versão para dispositivos móveis.
-
----
-
-## 👥 Equipe de desenvolvimento
-
-O projeto foi desenvolvido por estudantes da **Universidade de Mogi das Cruzes (UMC)**.
-
-| Integrante | Participação |
-|---|---|
-| **Ana Júlia Monteiro Lemes** | Desenvolvimento colaborativo do aplicativo |
-| **Júlio Félix Quintero de Assis** | Desenvolvimento colaborativo do aplicativo |
-| **Thamiris Bernal Molina** | Desenvolvimento colaborativo do aplicativo |
-
-### 🤝 Colaboração
-
-Os três integrantes participaram do desenvolvimento do código e da construção do SkillMatch.
-
-As atividades envolveram a implementação de funcionalidades, organização das telas, testes, identificação de problemas e realização de melhorias.
-
-A publicação inicial dos arquivos no GitHub foi centralizada em uma conta, embora o desenvolvimento tenha sido realizado em equipe.
-
----
-
-## 🌎 Impacto social
-
-O SkillMatch também está alinhado a dois Objetivos de Desenvolvimento Sustentável da Organização das Nações Unidas.
-
-**ODS 8 — Trabalho Decente e Crescimento Econômico**
-
-Incentivar o desenvolvimento profissional e ampliar o acesso a oportunidades de trabalho.
-
-**ODS 10 — Redução das Desigualdades**
-
-Contribuir para a inclusão de profissionais iniciantes, facilitando sua entrada no mercado.
-
----
-
-## 📚 Considerações finais
-
-O desenvolvimento do SkillMatch possibilitou a aplicação prática dos conhecimentos adquiridos em Flutter e Dart, envolvendo criação de interfaces, navegação, organização de código, manipulação de dados e persistência local.
-
-O projeto demonstra como a tecnologia pode contribuir para aproximar profissionais e clientes, além de incentivar a capacitação e o desenvolvimento de novas habilidades.
-
-Embora ainda existam possibilidades de evolução, o aplicativo apresenta os principais fluxos propostos para a atividade acadêmica.
+**Instituição:** Universidade de Mogi das Cruzes (UMC).
 
 ---
 
 <div align="center">
 
 ### 💜 SkillMatch
-**Transformando habilidades em oportunidades!**
+**Conectando talentos a novas oportunidades.**
 
-Desenvolvido com Flutter e Dart.
-
-**Universidade de Mogi das Cruzes — UMC**
+Desenvolvido para fins acadêmicos na Universidade de Mogi das Cruzes.
 
 </div>
